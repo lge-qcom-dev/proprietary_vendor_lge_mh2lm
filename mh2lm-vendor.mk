@@ -8,7 +8,10 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_COPY_FILES += \
     vendor/lge/mh2lm/proprietary/vendor/bin/cpfirmware:$(TARGET_COPY_OUT_VENDOR)/bin/cpfirmware \
     vendor/lge/mh2lm/proprietary/vendor/bin/hw/android.hardware.drm@1.3-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.3-service.widevine \
+    vendor/lge/mh2lm/proprietary/vendor/bin/hw/vendor.lge.hardware.accessory@1.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.lge.hardware.accessory@1.1-service \
     vendor/lge/mh2lm/proprietary/vendor/bin/hw/vendor.lge.hardware.biometrics.fingerprint@2.2-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.lge.hardware.biometrics.fingerprint@2.2-service \
+    vendor/lge/mh2lm/proprietary/vendor/bin/hw/vendor.lge.hardware.dualscreen@1.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.lge.hardware.dualscreen@1.1-service \
+    vendor/lge/mh2lm/proprietary/vendor/bin/hw/vendor.lge.hardware.lpwg@1.4-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.lge.hardware.lpwg@1.4-service \
     vendor/lge/mh2lm/proprietary/vendor/bin/hw/vendor.qti.hardware.qseecom@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.qseecom@1.0-service \
     vendor/lge/mh2lm/proprietary/vendor/bin/qseecomd:$(TARGET_COPY_OUT_VENDOR)/bin/qseecomd \
     vendor/lge/mh2lm/proprietary/vendor/etc/acdbdata/Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Bluetooth_cal.acdb \
@@ -265,7 +268,10 @@ PRODUCT_COPY_FILES += \
     vendor/lge/mh2lm/proprietary/vendor/etc/gpfspath_oem_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gpfspath_oem_config.xml \
     vendor/lge/mh2lm/proprietary/vendor/etc/init/android.hardware.drm@1.3-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.3-service.widevine.rc \
     vendor/lge/mh2lm/proprietary/vendor/etc/init/qseecomd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qseecomd.rc \
+    vendor/lge/mh2lm/proprietary/vendor/etc/init/vendor.lge.hardware.accessory@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.lge.hardware.accessory@1.1-service.rc \
     vendor/lge/mh2lm/proprietary/vendor/etc/init/vendor.lge.hardware.biometrics.fingerprint@2.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.lge.hardware.biometrics.fingerprint@2.2-service.rc \
+    vendor/lge/mh2lm/proprietary/vendor/etc/init/vendor.lge.hardware.dualscreen@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.lge.hardware.dualscreen@1.1-service.rc \
+    vendor/lge/mh2lm/proprietary/vendor/etc/init/vendor.lge.hardware.lpwg@1.4-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.lge.hardware.lpwg@1.4-service.rc \
     vendor/lge/mh2lm/proprietary/vendor/etc/init/vendor.qti.hardware.qseecom@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.qseecom@1.0-service.rc \
     vendor/lge/mh2lm/proprietary/vendor/etc/qdcm_calib_data_Dual_Sharp_WQHD_cmd_mode_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_Dual_Sharp_WQHD_cmd_mode_dsi_panel.xml \
     vendor/lge/mh2lm/proprietary/vendor/etc/qdcm_calib_data_Dual_Sharp_wqhd_video_mode_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_Dual_Sharp_wqhd_video_mode_dsi_panel.xml \
@@ -598,6 +604,10 @@ PRODUCT_COPY_FILES += \
     vendor/lge/mh2lm/proprietary/vendor/lib/hw/audio.primary.msmnile.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.msmnile.so \
     vendor/lge/mh2lm/proprietary/vendor/lib/hw/camera.msmnile.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.msmnile.so \
     vendor/lge/mh2lm/proprietary/vendor/lib/hw/com.qti.chi.override.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/com.qti.chi.override.so \
+    vendor/lge/mh2lm/proprietary/vendor/lib/hw/vendor.lge.hardware.accessory.uevent@1.2-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.lge.hardware.accessory.uevent@1.2-impl.so \
+    vendor/lge/mh2lm/proprietary/vendor/lib/hw/vendor.lge.hardware.accessory@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.lge.hardware.accessory@1.1-impl.so \
+    vendor/lge/mh2lm/proprietary/vendor/lib/hw/vendor.lge.hardware.dualscreen@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.lge.hardware.dualscreen@1.1-impl.so \
+    vendor/lge/mh2lm/proprietary/vendor/lib/hw/vendor.lge.hardware.lpwg@1.4-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.lge.hardware.lpwg@1.4-impl.so \
     vendor/lge/mh2lm/proprietary/vendor/lib/hw/vendor.qti.hardware.qseecom@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.qseecom@1.0-impl.so \
     vendor/lge/mh2lm/proprietary/vendor/lib/lib.com.lge.elvis.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib.com.lge.elvis.so \
     vendor/lge/mh2lm/proprietary/vendor/lib/libAutoContrast.so:$(TARGET_COPY_OUT_VENDOR)/lib/libAutoContrast.so \
@@ -749,6 +759,18 @@ PRODUCT_COPY_FILES += \
     vendor/lge/mh2lm/proprietary/vendor/lib/rfsa/adsp/smecns_v2_module.so.1:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/smecns_v2_module.so.1 \
     vendor/lge/mh2lm/proprietary/vendor/lib/rfsa/adsp/smecns_v2_module_fv9.so.1:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/smecns_v2_module_fv9.so.1 \
     vendor/lge/mh2lm/proprietary/vendor/lib/sensors.ssc.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensors.ssc.so \
+    vendor/lge/mh2lm/proprietary/vendor/lib/vendor.lge.hardware.accessory.uevent@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.lge.hardware.accessory.uevent@1.0.so \
+    vendor/lge/mh2lm/proprietary/vendor/lib/vendor.lge.hardware.accessory.uevent@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.lge.hardware.accessory.uevent@1.1.so \
+    vendor/lge/mh2lm/proprietary/vendor/lib/vendor.lge.hardware.accessory.uevent@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.lge.hardware.accessory.uevent@1.2.so \
+    vendor/lge/mh2lm/proprietary/vendor/lib/vendor.lge.hardware.accessory@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.lge.hardware.accessory@1.0.so \
+    vendor/lge/mh2lm/proprietary/vendor/lib/vendor.lge.hardware.accessory@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.lge.hardware.accessory@1.1.so \
+    vendor/lge/mh2lm/proprietary/vendor/lib/vendor.lge.hardware.dualscreen@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.lge.hardware.dualscreen@1.0.so \
+    vendor/lge/mh2lm/proprietary/vendor/lib/vendor.lge.hardware.dualscreen@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.lge.hardware.dualscreen@1.1.so \
+    vendor/lge/mh2lm/proprietary/vendor/lib/vendor.lge.hardware.lpwg@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.lge.hardware.lpwg@1.0.so \
+    vendor/lge/mh2lm/proprietary/vendor/lib/vendor.lge.hardware.lpwg@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.lge.hardware.lpwg@1.1.so \
+    vendor/lge/mh2lm/proprietary/vendor/lib/vendor.lge.hardware.lpwg@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.lge.hardware.lpwg@1.2.so \
+    vendor/lge/mh2lm/proprietary/vendor/lib/vendor.lge.hardware.lpwg@1.3.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.lge.hardware.lpwg@1.3.so \
+    vendor/lge/mh2lm/proprietary/vendor/lib/vendor.lge.hardware.lpwg@1.4.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.lge.hardware.lpwg@1.4.so \
     vendor/lge/mh2lm/proprietary/vendor/lib/vendor.qti.hardware.qseecom@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.qseecom@1.0.so \
     vendor/lge/mh2lm/proprietary/vendor/lib64/camera/com.qti.eeprom.imx363_fm24c64d.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.eeprom.imx363_fm24c64d.so \
     vendor/lge/mh2lm/proprietary/vendor/lib64/camera/com.qti.eeprom.s5k3m3_fm24c64d.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.eeprom.s5k3m3_fm24c64d.so \
@@ -874,6 +896,10 @@ PRODUCT_COPY_FILES += \
     vendor/lge/mh2lm/proprietary/vendor/lib64/hw/camera.msmnile.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/camera.msmnile.so \
     vendor/lge/mh2lm/proprietary/vendor/lib64/hw/com.qti.chi.override.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/com.qti.chi.override.so \
     vendor/lge/mh2lm/proprietary/vendor/lib64/hw/fingerprint.msmnile.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.msmnile.so \
+    vendor/lge/mh2lm/proprietary/vendor/lib64/hw/vendor.lge.hardware.accessory.uevent@1.2-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.lge.hardware.accessory.uevent@1.2-impl.so \
+    vendor/lge/mh2lm/proprietary/vendor/lib64/hw/vendor.lge.hardware.accessory@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.lge.hardware.accessory@1.1-impl.so \
+    vendor/lge/mh2lm/proprietary/vendor/lib64/hw/vendor.lge.hardware.dualscreen@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.lge.hardware.dualscreen@1.1-impl.so \
+    vendor/lge/mh2lm/proprietary/vendor/lib64/hw/vendor.lge.hardware.lpwg@1.4-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.lge.hardware.lpwg@1.4-impl.so \
     vendor/lge/mh2lm/proprietary/vendor/lib64/hw/vendor.qti.hardware.qseecom@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.qseecom@1.0-impl.so \
     vendor/lge/mh2lm/proprietary/vendor/lib64/lib.com.lge.elvis.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib.com.lge.elvis.so \
     vendor/lge/mh2lm/proprietary/vendor/lib64/libAutoContrast.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libAutoContrast.so \
@@ -952,6 +978,18 @@ PRODUCT_COPY_FILES += \
     vendor/lge/mh2lm/proprietary/vendor/lib64/rfsa/adsp/libsns_low_lat_stream_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib64/rfsa/adsp/libsns_low_lat_stream_skel.so \
     vendor/lge/mh2lm/proprietary/vendor/lib64/sensors.sar.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.sar.so \
     vendor/lge/mh2lm/proprietary/vendor/lib64/sensors.ssc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.ssc.so \
+    vendor/lge/mh2lm/proprietary/vendor/lib64/vendor.lge.hardware.accessory.uevent@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.lge.hardware.accessory.uevent@1.0.so \
+    vendor/lge/mh2lm/proprietary/vendor/lib64/vendor.lge.hardware.accessory.uevent@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.lge.hardware.accessory.uevent@1.1.so \
+    vendor/lge/mh2lm/proprietary/vendor/lib64/vendor.lge.hardware.accessory.uevent@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.lge.hardware.accessory.uevent@1.2.so \
+    vendor/lge/mh2lm/proprietary/vendor/lib64/vendor.lge.hardware.accessory@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.lge.hardware.accessory@1.0.so \
+    vendor/lge/mh2lm/proprietary/vendor/lib64/vendor.lge.hardware.accessory@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.lge.hardware.accessory@1.1.so \
+    vendor/lge/mh2lm/proprietary/vendor/lib64/vendor.lge.hardware.dualscreen@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.lge.hardware.dualscreen@1.0.so \
+    vendor/lge/mh2lm/proprietary/vendor/lib64/vendor.lge.hardware.dualscreen@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.lge.hardware.dualscreen@1.1.so \
+    vendor/lge/mh2lm/proprietary/vendor/lib64/vendor.lge.hardware.lpwg@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.lge.hardware.lpwg@1.0.so \
+    vendor/lge/mh2lm/proprietary/vendor/lib64/vendor.lge.hardware.lpwg@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.lge.hardware.lpwg@1.1.so \
+    vendor/lge/mh2lm/proprietary/vendor/lib64/vendor.lge.hardware.lpwg@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.lge.hardware.lpwg@1.2.so \
+    vendor/lge/mh2lm/proprietary/vendor/lib64/vendor.lge.hardware.lpwg@1.3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.lge.hardware.lpwg@1.3.so \
+    vendor/lge/mh2lm/proprietary/vendor/lib64/vendor.lge.hardware.lpwg@1.4.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.lge.hardware.lpwg@1.4.so \
     vendor/lge/mh2lm/proprietary/vendor/lib64/vendor.lge.hardware.sensors@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.lge.hardware.sensors@1.0.so \
     vendor/lge/mh2lm/proprietary/vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.fingerprint@1.0.so \
     vendor/lge/mh2lm/proprietary/vendor/lib64/vendor.qti.hardware.qseecom@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.qseecom@1.0.so

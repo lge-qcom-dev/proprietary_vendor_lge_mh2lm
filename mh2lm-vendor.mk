@@ -957,5 +957,4 @@ PRODUCT_COPY_FILES += \
     vendor/lge/mh2lm/proprietary/vendor/lib64/vendor.qti.hardware.qseecom@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.qseecom@1.0.so
 
 PRODUCT_PACKAGES += \
-    manifest_android.hardware.drm@1.3-service.widevine \
-    vendor.lge.hardware.biometrics.fingerprint@2.2-service
+    manifest_android.hardware.drm@1.3-service.widevine

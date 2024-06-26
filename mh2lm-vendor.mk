@@ -419,23 +419,11 @@ PRODUCT_COPY_FILES += \
     vendor/lge/mh2lm/proprietary/vendor/etc/sensors/registry/registry/sensors_settings:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/registry/registry/sensors_settings \
     vendor/lge/mh2lm/proprietary/vendor/etc/sensors/sns_reg_config:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sns_reg_config \
     vendor/lge/mh2lm/proprietary/vendor/etc/thermal-engine-8150.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-8150.conf \
-    vendor/lge/mh2lm/proprietary/vendor/etc/wifi/CN/bdwlan.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/CN/bdwlan.bin \
-    vendor/lge/mh2lm/proprietary/vendor/etc/wifi/CN/bdwlan_ch0.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/CN/bdwlan_ch0.bin \
-    vendor/lge/mh2lm/proprietary/vendor/etc/wifi/CN/bdwlan_ch1.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/CN/bdwlan_ch1.bin \
     vendor/lge/mh2lm/proprietary/vendor/etc/wifi/GLOBAL/bdwlan.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/GLOBAL/bdwlan.bin \
     vendor/lge/mh2lm/proprietary/vendor/etc/wifi/GLOBAL/bdwlan_ch0.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/GLOBAL/bdwlan_ch0.bin \
     vendor/lge/mh2lm/proprietary/vendor/etc/wifi/GLOBAL/bdwlan_ch1.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/GLOBAL/bdwlan_ch1.bin \
-    vendor/lge/mh2lm/proprietary/vendor/etc/wifi/KR_ALL/bdwlan.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/KR_ALL/bdwlan.bin \
-    vendor/lge/mh2lm/proprietary/vendor/etc/wifi/KR_ALL/bdwlan_ch0.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/KR_ALL/bdwlan_ch0.bin \
-    vendor/lge/mh2lm/proprietary/vendor/etc/wifi/KR_ALL/bdwlan_ch1.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/KR_ALL/bdwlan_ch1.bin \
-    vendor/lge/mh2lm/proprietary/vendor/etc/wifi/NA_ALL/bdwlan.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/NA_ALL/bdwlan.bin \
-    vendor/lge/mh2lm/proprietary/vendor/etc/wifi/NA_ALL/bdwlan_ch0.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/NA_ALL/bdwlan_ch0.bin \
-    vendor/lge/mh2lm/proprietary/vendor/etc/wifi/NA_ALL/bdwlan_ch1.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/NA_ALL/bdwlan_ch1.bin \
     vendor/lge/mh2lm/proprietary/vendor/etc/wifi/aoa_cldb_falcon.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/aoa_cldb_falcon.bin \
     vendor/lge/mh2lm/proprietary/vendor/etc/wifi/aoa_cldb_swl14.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/aoa_cldb_swl14.bin \
-    vendor/lge/mh2lm/proprietary/vendor/etc/wifi/bdwlan.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bdwlan.bin \
-    vendor/lge/mh2lm/proprietary/vendor/etc/wifi/bdwlan_ch0.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bdwlan_ch0.bin \
-    vendor/lge/mh2lm/proprietary/vendor/etc/wifi/bdwlan_ch1.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bdwlan_ch1.bin \
     vendor/lge/mh2lm/proprietary/vendor/etc/wifi/icudt53l.dat:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/icudt53l.dat \
     vendor/lge/mh2lm/proprietary/vendor/firmware/CAMERA_ICP.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.elf \
     vendor/lge/mh2lm/proprietary/vendor/firmware/crbtfw21.tlv:$(TARGET_COPY_OUT_VENDOR)/firmware/crbtfw21.tlv \

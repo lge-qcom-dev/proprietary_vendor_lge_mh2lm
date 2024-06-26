@@ -895,3 +895,8 @@ PRODUCT_COPY_FILES += \
     vendor/lge/mh2lm/proprietary/vendor/lib64/sensors.ssc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.ssc.so \
     vendor/lge/mh2lm/proprietary/vendor/lib64/vendor.lge.hardware.sensors@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.lge.hardware.sensors@1.0.so \
     vendor/lge/mh2lm/proprietary/vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.fingerprint@1.0.so
+
+PRODUCT_PACKAGES += \
+    bdwlan_bdwlan_symlink \
+    bdwlan_ch0_bdwlan_ch0_symlink \
+    bdwlan_ch1_bdwlan_ch1_symlink

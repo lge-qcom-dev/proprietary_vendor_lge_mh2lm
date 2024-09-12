@@ -28,3 +28,4 @@ install_symlink {
 	installed_location: "firmware/wlan/qca_cld/bdwlan_ch1.bin",
 	symlink_target: "/vendor/etc/wifi/GLOBAL/bdwlan_ch1.bin",
 }
+
